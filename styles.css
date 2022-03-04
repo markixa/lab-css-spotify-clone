@@ -7,18 +7,48 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.img-size {
-    max-width: 100px;  
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.upper-menu-container{
+    display: flex;
+    align-items: center;
+}
+
+.img-logo {
+    max-width: 150px;  
     height: auto;  
 }
 
-.upper-menu {
+.menu-links {
+    color: #1A1A1A;
     text-decoration: none;
-    text-align: right;
+    
 }
 
 .center-img {
     max-width: 50%;  
     height: auto;  
+}
+
+.section-one-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.section-one-text{
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-one-container > img {
+    max-width: 1000px;
+    height: auto;
 }
