@@ -6,3 +6,11 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    background-color: aquamarine;
+}
+
+.img-size {
+    size: 10px;
+}
